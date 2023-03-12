@@ -1,2 +1,0 @@
-# Redome Config Server Repo
-
