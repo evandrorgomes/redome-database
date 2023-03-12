@@ -1,6 +1,11 @@
+redome:
+  serviceRegistry:
+    username: serviceregistry
+    password: "redome123sr"
+
 eureka:
   client:
     serviceUrl:
-      defaultZone: "http://localhost:8761/eureka"
+      defaultZone: "http://${redome.serviceRegistry.username}:${redome.serviceRegistry.password}@localhost:8761/eureka"
   instance:
     hostname: localhost
