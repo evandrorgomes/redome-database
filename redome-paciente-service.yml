@@ -1,0 +1,17 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: redome-paciente-service
+  datasource:
+    url: jdbc:oracle:thin:@10.46.9.63:1521/bdintra.inca.local
+    username: modred_aplicacao
+    password: euPwzh7F55
+  jpa:
+    driver: oracle.jdbc.driver.OracleDriver
+    hibernate:
+      dialect: org.hibernate.dialect.Oracle12cDialect
+    properties:
+      hibernate:
+        show_sql: true
