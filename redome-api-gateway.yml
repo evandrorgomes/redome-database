@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: redome-api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: usuario-service
+          uri: lb://REDOME-USUARIO-SERVICE
+          predicates:
+            - Path=/redome-usuario/**
+        - id: paciente-service
+          uri: lb://REDOME-PACIENTE-SERVICE
+          predicates:
+            - Path=/redome-paciente/**
+        - id: tarefa-service
+          uri: lb://REDOME-TAREFA-SERVICE
+          predicates:
+            - Path=/redome-tarefa/**
