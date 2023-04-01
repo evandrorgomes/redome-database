@@ -14,9 +14,10 @@ spring:
     driver: oracle.jdbc.driver.OracleDriver
     hibernate:
       dialect: org.hibernate.dialect.Oracle12cDialect
+    show-sql: true
     properties:
       hibernate:
-        show_sql: true
+        format_sql: true
 
 resilience4j:
   circuitbreaker:
