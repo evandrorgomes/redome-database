@@ -3,7 +3,7 @@ redome:
     username: serviceregistry
     password: "redome123sr"
   auth:
-    jwtSecret: "3t6w9z$C&F)J@NcQfTjWnZr4u7x!A%D*G-KaPdSgUkXp2s5v8y/B?E(H+MbQeThW"
+    jwtSecret: )J@NcRfUjXn2r5u8x!A%D*G-KaPdSgVkYp3s6v9y$B?E(H+MbQeThWmZq4t7w!z%
     jwtExpirationMs: 14400000 
 
 eureka:
