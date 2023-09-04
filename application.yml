@@ -1,7 +1,7 @@
 redome:
   serviceRegistry:
     username: serviceregistry
-    password: D4V5uzR4isTHS08WRKIInL1ZfP
+    password: 'ead123sr'
   auth:
     jwtSecret: )J@NcRfUjXn2r5u8x!A%D*G-KaPdSgVkYp3s6v9y$B?E(H+MbQeThWmZq4t7w!z%
     jwtExpirationMs: 14400000 
