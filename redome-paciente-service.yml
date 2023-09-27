@@ -1,7 +1,7 @@
 server:
   port: 8086
   servlet:
-    context-path: "/redome-paciente/"
+    context-path: '/redome-paciente/'
 
 spring:
   application:
