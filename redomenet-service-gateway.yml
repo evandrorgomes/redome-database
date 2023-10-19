@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: redome-service-gateway
+    name: redomenet-service-gateway
   cloud:
     gateway:
       routes:
