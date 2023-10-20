@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: redomenet-authuser-service
+    name: redomenet-service-authuser
   datasource:
     url: jdbc:oracle:thin:@10.46.9.63:1521/bdintra.inca.local
     username: modred_aplicacao
