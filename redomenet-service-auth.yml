@@ -1,11 +1,11 @@
 server:
   port: 8087
   servlet:
-    context-path: '/service-authuser/'
+    context-path: '/service-auth/'
 
 spring:
   application:
-    name: redomenet-service-authuser
+    name: redomenet-service-auth
   datasource:
     url: jdbc:oracle:thin:@10.46.9.63:1521/bdintra.inca.local
     username: modred_aplicacao
