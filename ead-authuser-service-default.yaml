@@ -5,19 +5,7 @@ server:
 
 spring:
   application:
-    name: redomenet-service-auth
-  datasource:
-    url: jdbc:oracle:thin:@10.46.9.63:1521/bdintra.inca.local
-    username: modred_aplicacao
-    password: euPwzh7F55
-  jpa:
-    driver: oracle.jdbc.driver.OracleDriver
-    hibernate:
-      dialect: org.hibernate.dialect.Oracle12cDialect
-    show-sql: true
-    properties:
-      hibernate:
-        format_sql: true
+    name: ead-authuser-service
   output:
     ansi:
       enabled: Always
