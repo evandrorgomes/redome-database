@@ -18,11 +18,11 @@ spring:
       hibernate:
         show-sql: true
         format_sql: true
-  output:
-    ansi:
-      enabled: Always
-  rabbitmq:
-    addresses: amqps://ihwpmkwj:43pU04U--tOS8gnKrH7Hj7KhV5Hjd167@beaver.rmq.cloudamqp.com/ihwpmkwj
+  # output:
+  #   ansi:
+  #     enabled: Always
+  # rabbitmq:
+  #   addresses: amqps://ihwpmkwj:43pU04U--tOS8gnKrH7Hj7KhV5Hjd167@beaver.rmq.cloudamqp.com/ihwpmkwj
 
 logging:
   level:
