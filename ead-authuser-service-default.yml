@@ -31,21 +31,21 @@ logging:
     org.springframework.web: INFO
     org.hibernate: INFO
 
-ead:
-  api:
-    url:
-      course: 'http://ead-course-service/ead-course'
-  broker:
-    exchange:
-      userEvent: ead.userevent
-      paymentEvent: ead.paymentevent
-    queue:
-     paymentEventQueue:
-        name: ead.paymentevent.ms.authuser
+# ead:
+#   api:
+#     url:
+#       course: 'http://ead-course-service/ead-course'
+#   broker:
+#     exchange:
+#       userEvent: ead.userevent
+#       paymentEvent: ead.paymentevent
+#     queue:
+#      paymentEventQueue:
+#         name: ead.paymentevent.ms.authuser
 
-authuser:
-  refreshscope:
-    name: Michelli Brito UPDATE!!!!!!!
+# authuser:
+#   refreshscope:
+#     name: Michelli Brito UPDATE!!!!!!!
 
 management:
   endpoints:
