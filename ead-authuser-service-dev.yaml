@@ -6,18 +6,19 @@ server:
 spring:
   application:
     name: ead-authuser-service
-  datasource:
-    url: jdbc:oracle:thin:@10.46.9.63:1521/bdintra.inca.local
-    username: modred_aplicacao
-    password: euPwzh7F55
-  jpa:
-    driver: oracle.jdbc.driver.OracleDriver
-    hibernate:
-      dialect: org.hibernate.dialect.Oracle12cDialect
-    show-sql: true
-    properties:
-      hibernate:
-        format_sql: true
+  # datasource:
+  #   url:  jdbc:postgresql://localhost:5432/ead-authuser-v2
+  #   username: postgres
+  #   password: banco123
+  # jpa:
+  #   hibernate:
+  #     ddl-auto: update
+  #     dialect: org.hibernate.dialect.PostgreSQLDialect
+  #     jdbc:
+  #       lob.non-contextual-creation: true
+  #   properties:
+  #     hibernate:
+  #       show_sql: true
   output:
     ansi:
       enabled: Always
