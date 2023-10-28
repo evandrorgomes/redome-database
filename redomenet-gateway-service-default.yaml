@@ -7,7 +7,7 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: service-authuser
+        - id: service-authuserKKK
           uri: lb://REDOMENET-AUTHUSER-SERVICE
           predicates:
             - Path=/service-authuser/**
