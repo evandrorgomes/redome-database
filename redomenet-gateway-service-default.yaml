@@ -3,12 +3,12 @@ server:
 
 spring:
   application:
-    name: redomenet-service-gateway
+    name: redomenet-gateway-service
   cloud:
     gateway:
       routes:
         - id: service-authuser
-          uri: lb://REDOMENET-SERVICE-AUTHUSER
+          uri: lb://REDOMENET-AUTHUSER-SERVICE
           predicates:
             - Path=/service-authuser/**
         - id: paciente-service
