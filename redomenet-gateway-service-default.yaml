@@ -7,10 +7,10 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: service-authuserKKK
+        - id: redomenet-authuser
           uri: lb://REDOMENET-AUTHUSER-SERVICE
           predicates:
-            - Path=/service-authuser/**
+            - Path=/redomenet-authuser/**
         - id: paciente-service
           uri: lb://REDOME-PACIENTE-SERVICE
           predicates:
