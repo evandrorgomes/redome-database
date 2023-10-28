@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: redomenet-service-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: service-authuser
+          uri: lb://REDOMENET-SERVICE-AUTHUSER
+          predicates:
+            - Path=/service-authuser/**
+        - id: paciente-service
+          uri: lb://REDOME-PACIENTE-SERVICE
+          predicates:
+            - Path=/redome-paciente/**
+        - id: tarefa-service
+          uri: lb://REDOME-TAREFA-SERVICE
+          predicates:
+            - Path=/redome-tarefa/**
