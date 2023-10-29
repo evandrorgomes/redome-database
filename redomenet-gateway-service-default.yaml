@@ -15,7 +15,7 @@ spring:
           uri: lb://REDOMENET-NOTIFICACAO-SERVICE
           predicates:
             - Path=/redomenet-notificacao/**
-        - id: tarefa-service
-          uri: lb://REDOME-TAREFA-SERVICE
+        - id: redomenet-tarefa
+          uri: lb://REDOMENET-TAREFA-SERVICE
           predicates:
-            - Path=/redome-tarefa/**
+            - Path=/redomenet-tarefa/**
