@@ -11,10 +11,10 @@ spring:
           uri: lb://REDOMENET-AUTHUSER-SERVICE
           predicates:
             - Path=/redomenet-authuser/**
-        - id: paciente-service
-          uri: lb://REDOME-PACIENTE-SERVICE
+        - id: redomenet-notificacao
+          uri: lb://REDOMENET-NOTIFICACAO-SERVICE
           predicates:
-            - Path=/redome-paciente/**
+            - Path=/redomenet-notificacao/**
         - id: tarefa-service
           uri: lb://REDOME-TAREFA-SERVICE
           predicates:
