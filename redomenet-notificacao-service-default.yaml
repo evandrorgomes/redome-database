@@ -31,10 +31,10 @@ logging:
     org.springframework.web: INFO
     org.hibernate: INFO
 
-# ead: 
-#   api:
-#     url:
-#       course: 'http://ead-course-service/ead-course'
+redomenet: 
+  api:
+    url:
+      authuser: 'http://redomenet-authuser-service/redomenet-authuser'
 #   broker:
 #     exchange:
 #       userEvent: ead.userevent
